@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    background-color: #b1afc4
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #372abf;
+}
+
+ul{
+    list-style-type: style none;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.company{
+    font-size: xx-large;
+}
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width: 1280px){
+    .container{
+        width: 100%;
+    }
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
